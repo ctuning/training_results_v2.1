@@ -43,7 +43,7 @@ export MXNET_EXEC_BULK_EXEC_MAX_NODE_TRAIN_FWD=999
 export MXNET_EXEC_BULK_EXEC_MAX_NODE_TRAIN_BWD=999
 
 ## System run parms
-export DGXNGPU=4
+export DGXNGPU=2
 export DGXNNODES=1
 export DGXSYSTEM=$(basename $(readlink -f ${BASH_SOURCE[0]}) | sed 's/^config_//' | sed 's/\.sh$//' )
 export WALLTIME=06:00:00
